@@ -1,3 +1,3 @@
-FROM starefossen/github-pages:latest
+FROM joergi/github-pages:latest
 
 ONBUILD COPY . /usr/src/app
